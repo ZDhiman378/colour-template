@@ -1,0 +1,71 @@
+.cont1{
+	display: grid;
+	grid-template-rows: 1fr 2fr 2fr 1fr 1fr 1fr 1fr ;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+	height: 80vh;
+	width: 50vw;
+	gap: 5px;
+}
+body{
+	margin: 0;
+}
+.box1{
+	background-color: gray;
+	grid-column: span 2;
+}	
+.box2{
+	background-color: red;
+}
+.box3{
+	background-color: yellow;
+	grid-column: span 2;
+}
+.box4{
+	background-color: blue;
+}
+.box5{
+	background-color: silver;
+	grid-row: span 2;
+	grid-column: span 2;
+}
+.box6{
+	background-color: brown;
+	grid-column: span 2;
+}
+.box7{
+	background-color: violet;
+	grid-row: span 2;
+}
+.box8{
+	background-color: burlywood;
+}
+.box9{
+	background-color: teal;
+}
+.box10{
+	background-color:brown;
+	grid-row: span 2;
+}
+.box11{
+	background-color: tomato;
+}
+.box12{
+	background-color: tan;
+}
+.box13{
+	background-color: cadetblue;
+}
+.box14{
+	background-color: burlywood;
+}
+.box15{
+	background-color: chartreuse;
+}
+.box16{
+	background-color: yellowgreen;
+	grid-column: span 2;
+}
+
+
+
+
